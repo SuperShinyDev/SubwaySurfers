@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subway Surfers</title>
+  <link rel="icon" href="../../assets/images/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jolly+Lodger:wght@400&display=swap" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Subway_Surfers</title>
+</head>
+
+<body class="mx-auto">
+  <div class="container-fluid rpx-3 px-sm-5">
+    <div class="d-flex justify-content-center">
+      <div class="column col-6">
+        <a href="/" class="logo-link">
+          <img class="logo mt-5" src="./Assets/logo.svg">
+        </a>
+      </div>
+    </div>
+    <div class="login px-2 px-sm-4">
+      <img src="./Assets/avatar.svg" class="avatar">
+      <div class="title-container">
+        <p class="title">
+          VAMOS GANHAR<br>
+          E NOS DIVERTIR?
+        </p>
+        <form>
+          <input type="email" placeholder="Seu e-mail" id="email">
+          <!-- <div class="input-group">
+            <input type="password" placeholder="Senha" id="password">
+            <span class="input-group-append eye" style="margin-left: -50px;">
+              <img src="./Assets/eye.png">
+            </span>
+          </div> -->
+          <div class="password-container">
+            <input type="password" id="password" placeholder="Password">
+            <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+          </div>
+        </form>
+        <div class="text-start rms-4 rmt-3 ps-sm-4">
+          <a href="/sign/reset_password" class="register">Esqueci a senha</a>
+        </div>
+        <a href="/option">
+          <button class="signBtn rmt-4">
+            <span class="btn-text">JOGAR</span>
+          </button>
+        </a>
+        <div class="forgot text-center rmt-4 mt-sm-4">
+          <span>NÃO TEM UMA CONTA?</span><a href="/sign/signup" class="forgot-link"> CRIE AGORA</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function togglePasswordVisibility() {
+      var passwordInput = document.getElementById("password");
+      var toggleIcon = document.querySelector(".toggle-password");
+
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleIcon.classList.add("hide-password");
+      } else {
+        passwordInput.type = "password";
+        toggleIcon.classList.remove("hide-password");
+      }
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+.i-phone-13-14-13,
+.i-phone-13-14-13 * {
+  box-sizing: border-box;
+}
+.i-phone-13-14-13 {
+  background: #32556b;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.bg-subway-02-1 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.subway-surfers-logo-2 {
+  width: 52.051vw;
+  height: 27.43vw;
+  position: absolute;
+  left: 23.97vw;
+  top: 675vh;
+}
+.rectangle-32 {
+  background: linear-gradient(to left, #dcf2ff, #dcf2ff);
+  border-radius: 36px;
+  border-style: solid;
+  border-color: #0064b5;
+  border-width: 3px;
+  width: 338px;
+  height: 581px;
+  position: absolute;
+  left: 26px;
+  top: 223px;
+}
+.group-48 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-31 {
+  background: #0064b5;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #005397;
+  border-width: 3px;
+  width: 159px;
+  height: 56px;
+  position: absolute;
+  left: 116px;
+  top: 685px;
+}
+.jogar {
+  color: #ffffff;
+  text-align: center;
+  font-family: "FugazOne-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 56px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 52px);
+  top: 686px;
+}
+.rectangle-29 {
+  background: #dcf2ff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0f4b7d;
+  border-width: 2px;
+  width: 278px;
+  height: 56px;
+  position: absolute;
+  left: 56px;
+  top: 399px;
+}
+.rectangle-30 {
+  background: #dcf2ff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0f4b7d;
+  border-width: 2px;
+  width: 278px;
+  height: 56px;
+  position: absolute;
+  left: 56px;
+  top: 468px;
+}
+.rectangle-33 {
+  background: #dcf2ff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0f4b7d;
+  border-width: 2px;
+  width: 278px;
+  height: 56px;
+  position: absolute;
+  left: 56px;
+  top: 537px;
+}
+.rectangle-34 {
+  background: #dcf2ff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0f4b7d;
+  border-width: 2px;
+  width: 278px;
+  height: 56px;
+  position: absolute;
+  left: 56px;
+  top: 606px;
+}
+.fluent-eye-20-filled {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 279px;
+  top: 620px;
+  overflow: visible;
+}
+.cadastre-se-e-divirta-se {
+  color: #004787;
+  text-align: center;
+  font-family: "FugazOne-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 110px);
+  top: 304px;
+}
+.seu-nome {
+  color: #10487c;
+  text-align: left;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 124px);
+  top: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.seu-e-mail {
+  color: #10487c;
+  text-align: left;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 124px);
+  top: 484px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.seu-whatsapp {
+  color: #10487c;
+  text-align: left;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 124px);
+  top: 553px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sua-senha {
+  color: #10487c;
+  text-align: left;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 124px);
+  top: 622px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-332 {
+  background: #0064b5;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #005193;
+  border-width: 3px;
+  width: 187px;
+  height: 46px;
+  position: absolute;
+  left: 134px;
+  top: 206px;
+}
+.microsoft-fluentui-emoji-3-d-money-with-wings-3-d-3 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: calc(50% - 35px);
+  top: 214px;
+}
+.microsoft-fluentui-emoji-3-d-money-with-wings-3-d-4 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: calc(50% - 6px);
+  top: 214px;
+}
+.microsoft-fluentui-emoji-3-d-money-with-wings-3-d-6 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: calc(50% - -51px);
+  top: 214px;
+}
+.microsoft-fluentui-emoji-3-d-money-with-wings-3-d-5 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: calc(50% - -23px);
+  top: 214px;
+}
+.microsoft-fluentui-emoji-3-d-money-with-wings-3-d-7 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: calc(50% - -80px);
+  top: 214px;
+}
+.subway-surfers-mumbai-india-1-1 {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #0064b5;
+  border-width: 3px;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  left: 56px;
+  top: 184px;
+}
+.j-tem-uma-conta-fa-a-o-login {
+  color: #004787;
+  text-align: center;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 108px);
+  top: 763px;
+}
+.j-tem-uma-conta-fa-a-o-login-span {
+  color: #004787;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.j-tem-uma-conta-fa-a-o-login-span2 {
+  color: #004787;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+}

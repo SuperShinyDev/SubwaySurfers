@@ -1,0 +1,268 @@
+.font-jolly {
+  font-family: Jolly Lodger, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+  "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+  "Source Han Sans CN", sans-serif;
+}
+
+.font-jockey {
+  font-family: Jockey One, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+  "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+  "Source Han Sans CN", sans-serif;
+}
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+.bg-subway {
+  background: url("../images/subway.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 100%;
+}
+
+.btn-log {
+  width: 100%;
+  background: #f9ff00;
+  border: 2px solid #d1c800;
+  border-radius: 5px;
+  font-family: Jockey One, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  font-size: 4.5vw;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+
+}
+
+.boy1{
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.elipse {
+  width: 100%;
+  top: 5rem;
+  right: 0;
+}
+
+.vamos{
+  font-size: 13vw;
+  font-weight: 400;
+  color: #f3ea21;
+  -webkit-text-stroke: 2.5px #000000;
+}
+.text-green {
+  color: #51ff00;
+}
+
+.btn-main {
+  width: 100%;
+  background: #f9ff00;
+  border: 1.2vw solid #d1c800;
+  border-radius: 5px;
+  font-size: 10vw;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.corra {
+  font-size: 13vw;
+  font-weight: 400;
+}
+
+.bg-sky {
+  background: #00728B;
+}
+
+.bluestar {
+  top: -50px;
+  left: 38vw;
+}
+
+
+.coinbox {
+  top: -25vw;
+  left: 12vw;
+}
+
+.boys {
+  margin-top: 28vw;
+}
+
+.box-bottom {
+  margin-bottom: 12rem;
+}
+
+.bg-green {
+  background-color: #499F2C;
+}
+
+.nossos {
+  padding-top: 20vw;
+}
+
+.bg-pink {
+  background: url("../images/pink-block.png"), rgb(231, 81, 12) 0px 0px / 100% 121.007% no-repeat;
+  background-size: cover;
+}
+
+.train-bottom {
+  margin-bottom: 30vw;
+}
+
+.train {
+  top: -30vw;
+  left: 25vw;
+}
+
+.train-top {
+  padding-top: 15vw;
+}
+
+.number {
+  width: 20vw;
+}
+
+.game1, .game2, .money {
+  width: 85vw;
+}
+
+.bg-bluer {
+  background: url("../images/bg-blue.png") no-repeat;
+  background-size: cover;
+}
+
+.dollarsymbol {
+  top: -7vw;
+  left: 25vw;
+}
+
+.indique {
+  padding-top: 50vw;
+}
+
+.bg-blacker {
+  background-color: #1E1E1E;
+}
+
+.receba {
+  font-size: 10vw;
+}
+
+.boy3 {
+  top: -5vw;
+  left: 25vw;
+}
+
+.esperando {
+  padding-top: 90vw;
+}
+
+.footer {
+  font-weight: 100;
+  font-size: 3vw;
+}
+
+@media (min-width: 600px) {
+  .btn-log {
+    font-size: 1.5rem;
+  }
+
+  .elipse {
+    width: 600px;
+  }
+
+  .vamos {
+    font-size: 6rem;
+  }
+
+  .btn-main {
+    font-size: 4rem;
+    border: 0.4rem solid #d1c800;
+  }
+
+  .corra {
+    font-size: 4rem;
+  }
+
+  .bluestar {
+    left: 240px;
+  }
+
+  .boys {
+    margin-top: 10rem;
+  }
+
+  .coinbox {
+    top: -10rem;
+    left: 100px;
+  }
+
+  .nossos {
+    padding-top: 6rem;
+  }
+
+  .train-bottom {
+    margin-bottom: 15rem;
+  }
+
+  .train {
+    top: -11rem;
+    left: 150px;
+  }
+
+  .train-top {
+    padding-top: 6rem;
+  }
+
+  .number {
+    width: 9rem;
+  }
+  .game1, .game2, .money {
+    width: 550px;
+  }
+
+  .dollarsymbol {
+    top: -4rem;
+    left: 150px;
+  }
+
+  .indique {
+    padding-top: 18rem;
+  }
+
+  .receba {
+    font-size: 4rem;
+  }
+
+  .boy3 {
+    top: -5vw;
+    left: 130px;
+  }
+
+  .esperando {
+    padding-top: 30rem;
+  }
+
+}

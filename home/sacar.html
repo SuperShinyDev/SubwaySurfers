@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Surfers</title>
+    <link rel="icon" href="../assets/images/icon.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="./assets/css/index.css" rel="stylesheet">
+    <script src="./assets/js/index.js"></script>
+</head>
+
+<body class="mx-auto">
+    <div class="bg-whiteblock">
+        <div class="container-fluid px-4 px-sm-5 d-flex flex-wrap align-content-between">
+            <div class="row d-flex justify-content-between mx-0 w-100 logo-container">
+                <div class="column col-2 text-center  rounded-4 d-flex align-items-center p-0">
+                    <a href="/home/profile.html" class="w-100">
+                        <img src="./assets/images/contact-icon.svg" class="w-100" role="button">
+                    </a>
+                </div>
+                <div class="column col-5 d-flex align-items-center">
+                    <a href="/">
+                        <img src="./assets/images/logo.png" class="w-100" role="button">
+                    </a>
+                </div>
+                <div class="column col-1 d-flex align-items-center p-0">
+                    <a href="#" class="p-0 w-100">
+                        <img src="./assets/images/signout.svg" class="w-100 p-0" role="button">
+                    </a>
+                </div>
+            </div>
+            <div class="row charactor-container d-flex w-100 m-0 flex-column">
+                <div class="row bg-blue py-2 m-0 key-container">
+                    <div class="column col-2 d-flex align-items-center">
+                        <img src="./assets/images/sacar-icon.svg" class="h-100">
+                    </div>
+                    <div
+                        class="column col-9 font-fugaz text-white text-uppercase d-flex align-items-center justify-content-start p-0 desbloqueie">
+                        SACAR
+                    </div>
+                </div>
+                <div
+                    class="row bg-white m-0 py-2 position-relative px-3 d-flex flex-wrap align-content-around flex-grow-1">
+                    <div class="row w-100 p-0 m-0 saldo-container d-flex h-auto">
+                        <div class="column col-4 bg-sky px-3 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/coinpack.png" class="w-100 px-sm-2">
+                        </div>
+                        <div class="column col-8 bg-powderblue px-1 d-flex flex-column p-0 m-0 h-auto">
+                            <div class="font-fugaz text-uppercase saldo m-0">saldo</div>
+                            <div class="font-fugaz text-uppercase r-10000">R$ 100,00</div>
+                            <div class="row m-0 p-0">
+                                <div class="column col-10 p-0 m-0 d-flex flex-column">
+                                    <div class="progress-bar w-100 p-0 m-0">
+                                        <div class="p-0 m-0" id="progress-status"></div>
+                                    </div>
+                                    <div class="text-end font-fugaz iphone">IPHONE 15 PRO MAX OU 10K NO PIX</div>
+                                </div>
+                                <div class="column col-2 px-2 ps-sm-3 m-0 h-auto d-flex">
+                                    <img src="./assets/images/bonus.svg" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="font-fugaz text-center digite">
+                        SEU SALDO DISPONÍVEL
+                    </div>
+                    <div class="font-fugaz px-5 rounded-3 d-flex justify-content-center align-items-baseline p-0 m-0">
+                        <div class="d-flex money">R$ </div>
+                        <input type="number" class="text-large price-input" placeholder="30" id="progressValue"
+                            oninput="updateProgress()" />
+                        <div class="align-self-start">
+                            <img src="./assets/images/edit.svg" class="edit-icon">
+                        </div>
+                    </div>
+                    <div class="text-center font-fugaz voce">
+                        ADICIONE SUA CHAVE PIX
+                    </div>
+                    <a href="#" class="text-decoration-none mt-2 my-sm-0">
+                        <input class="btn-white font-fugaz py-1 rounded-3 px-3 mx-auto w-100" placeholder="CPF" />
+                    </a>
+                    <div class="w-auto mx-auto text-decoration-none mt-2 my-sm-3 d-flex justify-content-around"
+                        data-bs-toggle="modal" data-bs-target="#myModal" role="button">
+                        <div class="btn-green font-fugaz text-white px-4 py-1 rounded-3 mb-1 pix-button-text">
+                            <img class="w-auto" src="./assets/images/pix-icon.svg" />
+                            SACAR VIA PIX
+                        </div>
+                    </div>
+                    <table class="row w-100 table-container p-0 m-0 text-center">
+                        <tbody class="p-0">
+                            <tr class="w-100">
+                                <th class="bg-blue text-center text-white font-fugaz p-1 table-title">
+                                    RETIRADA
+                                </th>
+                                <th class="bg-blue text-center text-white font-fugaz p-1 table-title">
+                                    DATA SOLICITADA
+                                </th>
+                                <th class="bg-blue text-center text-white font-fugaz p-1 table-title">
+                                    STATUS
+                                </th>
+                            </tr>
+                            <tr class="w-100">
+                                <td class="bg-table-odd p-1 font-fugaz">
+                                    R$ 100,00
+                                </td>
+                                <td class="bg-table-odd p-1 font-fugaz">
+                                    12/12/2023
+                                </td>
+                                <td class="bg-table-odd px-2 font-fugaz px-sm-4">
+                                    <div class="btn-status-aprovado font-fugaz text-white">APROVADO</div>
+                                </td>
+                            </tr>
+                            <tr class="w-100">
+                                <td class="bg-table-even p-1 font-fugaz">
+                                    R$ 100,00
+                                </td>
+                                <td class="bg-table-even p-1 font-fugaz">
+                                    12/12/2023
+                                </td>
+                                <td class="bg-table-even px-2 font-fugaz px-sm-4">
+                                    <div class="btn-status-pendente font-fugaz text-white">PENDENTE</div>
+                                </td>
+                            </tr>
+                            <tr class="w-100">
+                                <td class="bg-table-odd p-1 font-fugaz">
+                                    R$ 100,00
+                                </td>
+                                <td class="bg-table-odd p-1 font-fugaz">
+                                    12/12/2023
+                                </td>
+                                <td class="bg-table-odd px-2 font-fugaz px-sm-4">
+                                    <div class="btn-status-aprovado2 font-fugaz text-white">APROVADO</div>
+                                </td>
+                            </tr>
+                            <tr class="w-100">
+                                <td class="bg-table-even p-1 font-fugaz">
+                                    R$ 100,00
+                                </td>
+                                <td class="bg-table-even p-1 font-fugaz">
+                                    12/12/2023
+                                </td>
+                                <td class="bg-table-even px-2 font-fugaz px-sm-4">
+                                    <div class="btn-status-aprovado2 font-fugaz text-white">APROVADO</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div class="row d-flex align-items-center btn-group w-100 mx-0 my-sm-0">
+                <a href="/home/" class="column w-25 px-1 px-sm-3">
+                    <img src="./assets/images/inicio.svg" class="w-100">
+                </a>
+                <a href="/home/deposit.html" class="column w-25 px-1 px-sm-3">
+                    <img src="./assets/images/depositar.png" class="w-100">
+                </a>
+                <a href="/home/sacar.html" class="column w-25 px-1 px-sm-3">
+                    <img src="./assets/images/scar.svg" class="w-100">
+                </a>
+                <a href="/home/wallet.html" class="column w-25 px-1 px-sm-3">
+                    <img src="./assets/images/afiliado.svg" class="w-100">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog" id="sacar-modal">
+            <div class="modal-content border-0">
+                <div class="container-fluid px-3 d-flex align-self-center">
+                    <div class="modal-body d-flex flex-wrap align-content-center">
+                        <div class="row bg-blue py-1 m-0 key-container w-100">
+                            <div class="column col-2 d-flex align-items-center">
+                                <img src="./assets/images/dollar-icon.svg" class="w-75">
+                            </div>
+                            <div
+                                class="column col-8 font-fugaz text-white text-uppercase d-flex align-self-center desbloqueie">
+                                PAGAMENTO SOLICITADO
+                            </div>
+                            <div class="column col-2 d-flex align-self-center" data-bs-dismiss="modal">
+                                <img src="./assets/images/close-icon.svg" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row bg-white m-0 py-2 position-relative d-flex justify-content-center">
+                            <img src="./assets/images/check-icon.svg" class="w-50 my-3" />
+                            <div class="font-fugaz text-center saldo text-uppercase prazo">
+                                prazo até 24h
+                            </div>
+                            <div class="font-fugaz text-center digite text-uppercase solicitado">
+                                SOLICITADO!
+                            </div>
+                            <div class="font-fugaz text-center digite text-uppercase agora">
+                                Agora é só aguardar
+                            </div>
+                            <a href="/home" class="text-center digite text-uppercase voltar mb-3 pt-1" role="button">
+                                VOLTAR PARA HOME
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

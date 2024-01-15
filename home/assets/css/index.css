@@ -1,0 +1,1074 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+}
+
+.font-fugaz {
+    font-family: Fugaz One, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+    ;
+}
+
+.bg-whiteblock {
+    background: url("../images/bg-whiteblock.png") no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.logo-container {
+    height: 13vh;
+}
+
+.charactor-container {
+    height: auto;
+}
+
+
+@media only screen and (min-width: 420px) {
+    .charactor-container {
+        height: 72vh;
+        min-height: 38rem;
+    }
+
+}
+
+.btn-group {
+    height: 15vh;
+}
+
+.icon-container {
+    background-color: #0064B5;
+    border: 3px solid #005397;
+}
+
+.affiliate-container {
+    border: 3px solid #5EB7FF;
+    background: #0064B5;
+}
+
+.btn-yellow {
+    border-radius: 4px;
+    border: 2px solid #CFB300;
+    background: #FDDC03;
+    color: #002C50;
+    font-size: 3vw;
+    width: auto;
+    top: -3vw;
+    left: 3vw;
+}
+
+.indique {
+    font-size: 5vw;
+    padding-top: 5vw;
+}
+
+.convide {
+    font-size: 2vw;
+}
+
+.btn-green {
+    border: 1vw solid #228800;
+    background: #2CB000;
+    font-size: 3.8vw;
+}
+
+.btn-pink {
+    border: 1vw solid #D84E00;
+    background: #FE6007;
+    font-size: 3.8vw;
+}
+
+.coin {
+    width: 7vw;
+}
+
+.coinbox {
+    width: 13vw;
+}
+
+.agora {
+    font-size: 2.5vw;
+}
+
+.pink-container {
+    display: none;
+    top: 16vw;
+    right: 3vw;
+}
+
+.coins {
+    top: -10px;
+    right: -30px;
+}
+
+.ganhe {
+    font-size: 2.5vw;
+}
+
+.bg-blue {
+    background-color: #0064B5;
+}
+
+.desbloqueie {
+    font-size: 3.2vw;
+}
+
+#actor {
+    width: 100%;
+}
+
+.name {
+    color: #005397;
+    font-size: 6vw;
+    left: 45vw;
+    top: 8vw;
+}
+
+.left-arrow {
+    min-width: 40px;
+    width: 12.8vw;
+    top: 35vw;
+    left: 3vw;
+}
+
+.right-arrow {
+    min-width: 40px;
+    width: 12.8vw;
+    top: 35vw;
+    right: 3vw;
+}
+
+.right-arrow {
+    rotate: 180deg;
+}
+
+.key-container {
+    border-radius: 5vw 5vw 0 0;
+    height: 10vw;
+}
+
+.bg-white {
+    border: 4px solid #5EB7FF;
+    border-top: 0;
+    border-radius: 0 0 3vw 3vw;
+}
+
+/* Deposit style */
+
+.digite {
+    color: #0064B5;
+    font-size: 4vw;
+}
+
+.voce {
+    color: #254B6A;
+    font-size: 4.5vw;
+}
+
+.text-large-deposit {
+    font-size: 6vw;
+}
+
+.text-large {
+    font-size: 10vw;
+}
+
+.mcard {
+    min-width: 33.3vw;
+    width: 33.3vw;
+}
+
+.bonus-container {
+    padding: 1.2vw 3vw;
+}
+
+.btn-white {
+    color: #254B6A;
+    font-size: 4.5vw;
+    border: 0.6vw solid #486883;
+}
+
+.bg-card-white {
+    border: 0.6vw solid #486883;
+    border-top: 0;
+    border-radius: 0 0 2vw 2vw;
+}
+
+.bg-bluer {
+    background-color: #05419C;
+    border-radius: 3vw 0 0 0;
+}
+
+.bg-red {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #E34400;
+    border-top: 1vw solid #D13F00;
+    border-radius: 2vw 2vw 0 0;
+    height: 130%;
+}
+
+.text-bonus {
+    font-size: 2.5vw;
+    font-weight: normal;
+    line-height: 3.5vw;
+}
+
+.text-large-bonus {
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+
+.large-bonus {
+    font-size: 8vw;
+}
+
+.bonus-context1 {
+    font-size: 3vw;
+}
+
+.bonus-context2 {
+    font-size: 5vw;
+}
+
+.btn-select {
+    border-radius: 1.5vw;
+    border: 0.6vw solid #439400;
+}
+
+.form-check-label {
+    color: #439400;
+    font-size: 3vw;
+}
+
+.checked {
+    background-color: #2CB000;
+}
+
+.checked .form-check-label {
+    color: white;
+}
+
+.r-size {
+    font-size: 4vw;
+}
+
+.clicked {
+    border: 0.5vw solid #ffffff !important;
+}
+
+input[type=radio] {
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3vw;
+    height: 3vw;
+    border: 0.5vw solid #439400;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.clicked::before {
+    content: "";
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 10em 10em #ffffff;
+    display: grid;
+    place-content: center;
+}
+
+/* toggle switch */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 8vw;
+    height: 4vw;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 3vw;
+    width: 3vw;
+    left: 0.5vw;
+    bottom: 0.5vw;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2CB000;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2CB000;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(4vw);
+    -ms-transform: translateX(4vw);
+    transform: translateX(4vw);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.aceito {
+    font-size: 3vw;
+}
+
+/* pix button */
+
+.pix-button-text {
+    font-size: 3.9vw;
+}
+
+.servico {
+    font-size: 2vw;
+}
+
+.color-blue {
+    color: #0064B5;
+}
+
+/* SACAR Page */
+
+.bg-sky {
+    background-color: #0778D3;
+}
+
+.bg-powderblue {
+    background-color: #A1D6FF45;
+}
+
+.saldo-container {
+    border-radius: 3vw;
+    border: 0.7vw solid #0064B5;
+    overflow: hidden;
+}
+
+.saldo {
+    font-size: 3.5vw;
+    color: #323639;
+}
+
+.r-10000 {
+    font-size: 5vw;
+    color: #0064B5;
+}
+
+.money {
+    font-size: 4vw;
+}
+
+.edit-icon {
+    width: 5vw;
+}
+
+.iphone {
+    font-size: 2vw;
+}
+
+.table-container {
+    font-size: 3vw;
+    color: #004D8C;
+    border-radius: 20px;
+    border: 1.3vw solid #0064B5;
+    background: #E3EFF9;
+    overflow: hidden;
+    border-collapse: collapse;
+
+}
+
+.table-title {
+    font-size: 2.5vw;
+    border-collapse: collapse;
+    border: 1.3vw solid #0064B5;
+    font-weight: 100;
+}
+
+.bg-table-odd {
+    background-color: #8CCCFF26;
+}
+
+.bg-table-even {
+    background-color: #5FB8FF40;
+}
+
+.btn-status-aprovado {
+    border-radius: 0.8vw;
+    background: #2CB000;
+    font-size: 2.5vw;
+    padding: 0.38vw;
+}
+
+.btn-status-pendente {
+    border-radius: 0.8vw;
+    background: #FF8A00;
+    font-size: 2.5vw;
+    padding: 0.38vw;
+}
+
+.btn-status-aprovado2 {
+    border-radius: 0.8vw;
+    background: #D80000;
+    font-size: 2.5vw;
+    padding: 0.38vw;
+}
+
+.price-input {
+    width: 20vw;
+    border: 0;
+    outline: 0;
+}
+
+/* Modal Style*/
+
+.modal-content {
+    background-color: transparent;
+}
+
+.solicitado {
+    font-size: 5.5vw;
+    color: #323639;
+}
+
+.prazo {
+    font-size: 3.5vw;
+    color: #0064B5;
+}
+
+.voltar {
+    font-size: 3vw;
+}
+
+.progress-bar {
+    height: 12px;
+    border-radius: 1000px;
+    border: 2px solid #ACD1F0;
+    background: #F6FFF3
+}
+
+#progress-status {
+    width: 30%;
+    height: 12px;
+    border-radius: 1000px;
+    border: 1px solid #2AA900;
+    background: #2CB000;
+}
+
+#sacar-modal {
+    width: 100%;
+}
+
+/* Wallet Style */
+
+.seu {
+    font-size: 3.5vw;
+    color: #1E1E1E;
+}
+
+.btn-url {
+    color: #005397;
+    font-size: 3vw;
+    border: 0.4vw solid #005397;
+    border-radius: 2vw;
+    background: #FFF;
+}
+
+.btn-copy {
+    background-color: #0064B5;
+}
+
+.wallet-table {
+    font-size: 3.5vw;
+}
+
+.bg-blue-100 {
+    background-color: #5EB7FF;
+}
+
+.bg-blue-50 {
+    background-color: #5EB7FF50;
+}
+
+.bg-blue-25 {
+    background-color: #5EB7FF25;
+}
+
+.text-wallet-small {
+    font-size: 2vw;
+}
+
+.w-40 {
+    width: 47%;
+}
+
+.btn-telegram {
+    background-color: #0064B5;
+    border-radius: 1.5vw;
+    border: 0.8vw solid #005397;
+}
+
+.btn-music {
+    background-color: #ffffff;
+    color: #005397;
+    border-radius: 1.5vw;
+    border: 0.8vw solid #005397;
+}
+
+.telegram {
+    font-size: 3vw;
+}
+
+.suporte {
+    font-size: 3vw;
+    color: #005397;
+}
+
+/* Profile style */
+
+form input {
+    width: 100%;
+    height: 6.63vh;
+    background: #dcf2ff;
+    border-radius: 2.56vw !important;
+    border-style: solid;
+    border-color: #0f4b7d;
+    border-width: 2px;
+    outline: none;
+}
+
+form input {
+    font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+    color: #10487c !important;
+    padding: 0 10px;
+    font-size: 5vw;
+    margin-top: 1vh;
+}
+
+#password::placeholder,
+#name::placeholder,
+#whatsapp::placeholder,
+#email::placeholder,
+#cpf::placeholder,
+#data::placeholder {
+    color: #10487c;
+    font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+    margin-left: 5vw;
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+.profile-head {
+    font-size: 4.5vw;
+    color: #005397;
+}
+
+.voltar {
+    font-size: 4.5vw;
+}
+
+/* Price Style */
+
+.avatar1 {
+    position: absolute;
+    top: -27.8vw;
+    left: 12vw;
+    z-index: 10;
+}
+
+.multip {
+    font-size: 1.5rem;
+}
+
+.copied {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    opacity: 0.8;
+    display: none;
+}
+
+/* table style */
+
+table tbody td {
+    width: 1000px;
+}
+
+@media (min-width: 462px) {
+    .charactor-container {
+        height: auto;
+    }
+
+    .btn-yellow {
+        font-size: 1rem;
+        top: -1rem;
+        left: 1rem;
+    }
+
+    .indique {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .convide {
+        font-size: 0.8rem;
+    }
+
+    .btn-green {
+        border: 0.3rem solid #228800;
+        font-size: 1.5rem;
+    }
+
+    .coin {
+        width: 2.1rem;
+    }
+
+    .agora {
+        font-size: 0.8rem;
+    }
+
+    .desbloqueie {
+        font-size: 1rem;
+    }
+
+    .key-container {
+        border-radius: 1.5rem 1.5rem 0 0;
+        height: 3rem;
+    }
+
+    .name {
+        color: #005397;
+        font-size: 2.2rem;
+        left: 18rem;
+        top: 2rem;
+    }
+
+    .left-arrow {
+        min-width: 40px;
+        width: 3.5rem;
+        top: 10rem;
+        left: 1rem;
+    }
+
+    .right-arrow {
+        min-width: 40px;
+        width: 3.5rem;
+        top: 10rem;
+        right: 15rem;
+    }
+
+    .bg-white {
+        border: 4px solid #5EB7FF;
+        border-top: 0;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .btn-pink {
+        border: 0.3rem solid #D84E00;
+        background: #FE6007;
+        font-size: 3.8vw;
+    }
+
+    .coinbox {
+        width: 4rem;
+    }
+
+    .pink-container {
+        display: none;
+        top: 5rem;
+        right: 1rem;
+    }
+
+    .coins {
+        top: -10px;
+        right: -50px;
+        padding: 0 2rem;
+    }
+
+    .ganhe {
+        font-size: 1rem;
+    }
+
+    #actor {
+        width: auto;
+        height: 17rem;
+    }
+
+    .voce {
+        font-size: 1.5rem;
+    }
+
+    .mcard {
+        min-width: 12rem;
+        width: 12rem;
+    }
+
+    .digite {
+        font-size: 1.2rem;
+    }
+
+    .btn-white {
+        color: #254B6A;
+        font-size: 1.2rem;
+        border: 0.2rem solid #486883;
+    }
+
+    .text-large-deposit {
+        font-size: 2rem;
+    }
+
+    .text-bonus {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .bonus-context1 {
+        font-size: 1rem;
+    }
+
+    .bonus-context2 {
+        font-size: 1rem;
+    }
+
+    .r-size {
+        font-size: 1rem;
+    }
+
+    .large-bonus {
+        font-size: 1.5rem;
+    }
+
+    .form-check-label {
+        font-size: 1rem;
+    }
+
+    .bonus-container {
+        padding: 0.5rem 1rem;
+    }
+
+    .text-large-bonus {
+        font-size: 1.6rem;
+    }
+
+    .bg-bluer {
+        border-radius: 1rem 0 0 0;
+    }
+
+    .bg-red {
+        border-top: 0.5rem solid #D13F00;
+        border-radius: 1rem 1rem 0 0;
+        height: 130%;
+    }
+
+    .bg-card-white {
+        border: 0.3rem solid #486883;
+        border-top: 0;
+        border-radius: 0 0 1.2rem 1.2rem;
+    }
+
+    input[type=radio] {
+        width: 1rem;
+        height: 1rem;
+        border: 0.15rem solid #439400;
+        border-radius: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    .clicked {
+        border: 0.15rem solid #ffffff !important;
+    }
+
+    .clicked::before {
+        content: "";
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 10em 10em #ffffff;
+        display: grid;
+        place-content: center;
+    }
+
+    .btn-select {
+        border-radius: 0.5rem;
+        border: 0.2rem solid #439400;
+    }
+
+    /* toggle switch */
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 3rem;
+        height: 1.5rem;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 1rem;
+        width: 1rem;
+        left: 0.25rem;
+        bottom: 0.25rem;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(1.5rem);
+        -ms-transform: translateX(1.5rem);
+        transform: translateX(1.5rem);
+    }
+
+    .aceito {
+        font-size: 1rem;
+    }
+
+    .pix-button-text {
+        font-size: 1.5rem;
+    }
+
+    .servico {
+        font-size: 0.8rem;
+    }
+
+    /* SACAR Page */
+
+    .saldo-container {
+        border-radius: 1.5rem;
+        border: 0.4vw solid #0064B5;
+        overflow: hidden;
+    }
+
+    .saldo {
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        color: #323639;
+    }
+
+    .r-10000 {
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        color: #0064B5;
+    }
+
+    .money {
+        font-size: 1.5rem;
+    }
+
+    .text-large {
+        font-size: 3rem;
+    }
+
+    .edit-icon {
+        width: 1.5rem;
+    }
+
+    .iphone {
+        font-size: 0.7rem;
+    }
+
+    .table-container {
+        font-size: 1rem;
+        color: #004D8C;
+        border-radius: 20px;
+        border: 0.4rem solid #0064B5;
+        background: #E3EFF9;
+        overflow: hidden;
+        border-collapse: collapse;
+
+    }
+
+    .table-title {
+        width: 33.3%;
+        font-size: 0.8rem;
+        border-collapse: collapse;
+        border: 0.5rem solid #0064B5;
+    }
+
+
+    .btn-status-aprovado {
+        border-radius: 5px;
+        background: #2CB000;
+        font-size: 0.6rem;
+        padding: 0.3rem;
+    }
+
+    .btn-status-pendente {
+        border-radius: 5px;
+        background: #FF8A00;
+        font-size: 0.6rem;
+        padding: 0.3rem;
+    }
+
+    .btn-status-aprovado2 {
+        border-radius: 5px;
+        background: #D80000;
+        font-size: 0.6rem;
+        padding: 0.3rem;
+    }
+
+    .price-input {
+        width: 5.6rem;
+        border: 0;
+        outline: 0;
+    }
+
+    /* Wallet Style */
+
+    .seu {
+        font-size: 1rem;
+        color: #1E1E1E;
+    }
+
+    .btn-url {
+        color: #005397;
+        font-size: 1.2rem;
+        border: 0.2rem solid #005397;
+        border-radius: 0.5rem;
+        background: #FFF;
+    }
+
+    .wallet-table {
+        font-size: 1rem;
+    }
+
+    .text-wallet-small {
+        font-size: 0.8rem;
+    }
+
+    .btn-telegram {
+        background-color: #0064B5;
+        border-radius: 1rem;
+        border: 0.3rem solid #005397;
+    }
+
+    .btn-music {
+        background-color: #ffffff;
+        color: #005397;
+        border-radius: 1rem;
+        border: 0.3rem solid #005397;
+    }
+
+    .telegram {
+        font-size: 1rem;
+    }
+
+    .suporte {
+        font-size: 1rem;
+        color: #005397;
+    }
+
+    /* Profile style */
+
+    form input {
+        width: 100%;
+        height: 4rem;
+        background: #dcf2ff;
+        border-radius: 1rem !important;
+        border-style: solid;
+        border-color: #0f4b7d;
+        border-width: 2px;
+        outline: none;
+    }
+
+    form input {
+        font-size: 2rem;
+        margin-top: 0.8rem;
+    }
+
+    #password::placeholder,
+    #name::placeholder,
+    #whatsapp::placeholder,
+    #email::placeholder,
+    #cpf::placeholder,
+    #data::placeholder {
+        margin-left: 1rem;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .profile-head {
+        padding-left: 0.8rem;
+        font-size: 2rem;
+        color: #005397;
+    }
+
+    .voltar {
+        font-size: 2rem;
+    }
+
+    /* Price Style */
+
+    .avatar1 {
+        position: absolute;
+        top: -8.9rem;
+        left: 5rem;
+        z-index: 10;
+    }
+
+    .multip {
+        font-size: 1.5rem;
+    }
+
+    /* Modal Style */
+
+    .voltar {
+        font-size: 1rem;
+    }
+
+
+
+
+}

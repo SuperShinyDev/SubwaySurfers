@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Surfers</title>
+    <link rel="icon" href="../assets/images/icon.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="../home/assets/css/index.css" rel="stylesheet">
+    <script src="../home/assets/js/index.js"></script>
+</head>
+
+<body class="mx-auto">
+    <div class="bg-whiteblock">
+        <div class="container-fluid px-4 px-sm-5 d-flex flex-sm-wrap flex-column align-content-start align-content-sm-around">
+            <div class="row d-flex justify-content-center mx-0 mb-4 mb-sm-5 w-100 align-items-center logo-container">
+                <div class="column col-5 d-flex align-items-center">
+                    <a href="/">
+                        <img src="./Assets/Image/logo.svg" class="w-100 " role="button">
+                    </a>
+                </div>
+            </div>
+            <div class="row charactor-container w-100 h-75 mt-5 mt-sm-5 mx-auto d-flex flex-column position-relative">
+                <div class="row bg-blue py-2 m-0 key-container h-auto mt-sm-4">
+                    <img src="./Assets/Image/avatar3.png" class="avatar1 w-75">
+                    <div class="column col-9 font-fugaz text-white text-uppercase d-flex align-items-center justify-content-center p-0 w-100 multip">
+                        MULTIPLIQUE ATÉ 100X<br>COM A SUA HABILIDADE
+                    </div>
+                </div>
+                <div class="row bg-white m-0 py-2 position-relative d-flex flex-wrap align-content-around flex-grow-1">
+                    <div class="font-fugaz text-center voce">
+                        DIGITE OU SELECIONE UM VALOR
+                    </div>
+                    <div class="text-center font-fugaz digite">
+                        VOCÊ PODE ALTERAR O VALOR
+                    </div>
+                    <a href="#" class="w-auto mx-auto text-decoration-none">
+                        <div class="btn-white font-fugaz px-5 py-0 py-sm-1 my-1 rounded-3">R$
+                            <input class="text-large-deposit price-input" id="priceValue" placeholder="25" />
+                        </div>
+                    </a>
+                    <div class="mcard-group d-flex flex-row py-2 py-sm-3 px-0 mx-0 overflow-scroll">
+                        <div class="mcard px-1" onclick="priceSelect('20')" role="button">
+                            <div class="row bg-bluer position-relative w-100 p-0 m-0">
+                                <div class="column col-4 d-flex justify-content-center bonus-container">
+                                    <img src="../home/assets/images/bonus.svg" class="w-100">
+                                </div>
+                                <div class="column col-8 bg-red text-white font-fugaz text-center text-bonus py-1">
+                                    +R$
+                                    <span class="text-large-bonus">20</span>
+                                    <br>DE BÔNUS
+                                </div>
+                            </div>
+                            <div class="row bg-card-white text-center d-flex justify-content-center w-100 p-0 m-0">
+                                <div class="font-fugaz bonus-context1 p-1 mt-2">
+                                    DEPOSITE AGORA<br>E GANHE O BÔNUS
+                                </div>
+                                <div class="font-fugaz r-size">
+                                    R$ <span class="large-bonus">20</span>
+                                </div>
+                                <div id="radioButton20"
+                                    class="radios btn-select d-flex justify-content-center align-items-center w-auto px-1 mb-3">
+                                    <input type="radio" id="radio20" name="optradio" class="radio">
+                                    <label class="form-check-label font-fugaz px-1 py-1"
+                                        for="radio20">SELECIONAR</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mcard px-1" onclick="priceSelect('30')" role="button">
+                            <div class="row bg-bluer position-relative w-100 p-0 m-0">
+                                <div class="column col-4 d-flex justify-content-center bonus-container">
+                                    <img src="../home/assets/images/bonus.svg" class="w-100">
+                                </div>
+                                <div class="column col-8 bg-red text-white font-fugaz text-center text-bonus py-1">
+                                    +R$
+                                    <span class="text-large-bonus">30</span>
+                                    <br>DE BÔNUS
+                                </div>
+                            </div>
+                            <div class="row bg-card-white text-center d-flex justify-content-center w-100 p-0 m-0">
+                                <div class="font-fugaz bonus-context1 p-1 mt-2">
+                                    DEPOSITE AGORA<br>E GANHE O BÔNUS
+                                </div>
+                                <div class="font-fugaz r-size">
+                                    R$ <span class="large-bonus">30</span>
+                                </div>
+                                <div id="radioButton30"
+                                    class="radios btn-select d-flex justify-content-center align-items-center w-auto px-1 mb-3">
+                                    <input type="radio" id="radio30" name="optradio" class="radio">
+                                    <label class="form-check-label font-fugaz px-1 py-1 "
+                                        for="radio30">SELECIONAR</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mcard px-1" onclick="priceSelect('50')" role="button">
+                            <div class="row bg-bluer position-relative w-100 p-0 m-0">
+                                <div class="column col-4 d-flex justify-content-center bonus-container">
+                                    <img src="../home/assets/images/bonus.svg" class="w-100">
+                                </div>
+                                <div
+                                    class="column col-8 bg-red rounded- text-white font-fugaz text-center text-bonus py-1">
+                                    +R$
+                                    <span class="text-large-bonus">50</span>
+                                    <br>DE BÔNUS
+                                </div>
+                            </div>
+                            <div class="row bg-card-white text-center d-flex justify-content-center w-100 p-0 m-0">
+                                <div class="font-fugaz bonus-context1 p-1 mt-2">
+                                    DEPOSITE AGORA<br>E GANHE O BÔNUS
+                                </div>
+                                <div class="font-fugaz r-size">
+                                    R$ <span class="large-bonus">50</span>
+                                </div>
+                                <div id="radioButton50"
+                                    class="radios btn-select d-flex justify-content-center align-items-center w-auto px-1 mb-3">
+                                    <input type="radio" id="radio50" name="optradio" class="radio">
+                                    <label class="form-check-label font-fugaz px-1 py-1 "
+                                        for="radio50">SELECIONAR</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mcard px-1" onclick="priceSelect('100')" role="button">
+                            <div class="row bg-bluer position-relative w-100 p-0 m-0">
+                                <div class="column col-4 d-flex justify-content-center bonus-container">
+                                    <img src="../home/assets/images/bonus.svg" class="w-100">
+                                </div>
+                                <div
+                                    class="column col-8 bg-red rounded- text-white font-fugaz text-center text-bonus py-1">
+                                    +R$
+                                    <span class="text-large-bonus">100</span>
+                                    <br>DE BÔNUS
+                                </div>
+                            </div>
+                            <div class="row bg-card-white text-center d-flex justify-content-center w-100 p-0 m-0">
+                                <div class="font-fugaz bonus-context1 p-1 mt-2">
+                                    DEPOSITE AGORA<br>E GANHE O BÔNUS
+                                </div>
+                                <div class="font-fugaz r-size">
+                                    R$ <span class="large-bonus">100</span>
+                                </div>
+                                <div id="radioButton100"
+                                    class="radios btn-select d-flex justify-content-center align-items-center w-auto px-1 mb-3">
+                                    <input type="radio" id="radio100" name="optradio" class="radio">
+                                    <label class="form-check-label font-fugaz px-1 py-1 "
+                                        for="radio100">SELECIONAR</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row toggle-switch d-flex justify-content-center flex-row align-items-center">
+                        <label class="switch ">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <div class="font-fugaz aceito w-auto px-1">ACEITO GANHAR O BÔNUS</div>
+                    </div>
+                    <div class="w-75">
+
+                    </div>
+                    <a href="/option/qr.html" class="w-100 text-decoration-none my-sm-3 px-4 px-sm-5">
+                        <div class="btn-green font-fugaz text-white py-2 rounded-3 pix-button-text d-flex">
+                            <div class="column col-3 d-flex justify-content-center">
+                                <img class="h-auto" src="../home/assets/images/pix-icon.svg" />
+                            </div>
+                            <div class="column col-8 d-flex align-self-center">
+                                DEPOSITAR VIA PIX
+                            </div>
+                        </div>
+                    </a>
+                    <div class="font-fugaz text-center servico">AO DEPOSITAR VOCÊ CONCORDA COM OS
+                        <span class="color-blue">TERMOS DE SERVIÇO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

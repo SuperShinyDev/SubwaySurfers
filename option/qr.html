@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subway Surfers</title>
+  <link rel="icon" href="../assets/images/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jolly+Lodger:wght@400&display=swap" />
+  <link rel="stylesheet" href="./Assets/css/index.css">
+  <link rel="stylesheet" href="./Assets/css/style.css">
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Subway_Surfers</title>
+</head>
+
+<body class="mx-auto">
+  <div class="container-fluid d-flex ml-4 flex-column px-sm-4">
+    <div class="d-flex justify-content-center logo-container">
+      <div class="column col-4">
+        <a href="/" class="logo-link">
+          <img class="logo rmt-4" src="./Assets/Image/logo.svg">
+        </a>
+      </div>
+    </div>
+    <div class="qr d-flex">
+      <img src="./Assets/Image/avatar.svg" class="avatar">
+      <div class="title-container d-flex flex-column w-100">
+        <div class="title-panel text-center justify-content-center align-items-center py-5 mt-1">
+          <p class="title price-title text-uppercase p-1 pt-sm-3">
+            bônus de depósito<br>
+            encerrará em ATÉ
+          </p>
+          <div class="time" id="currentTime"></div>
+        </div>
+        <div class="slide-panel flex-grow-1">
+          <div class="row m-0 py-2 position-relative relative">
+            <div class="w-auto">
+              <img src="./Assets/Image/qr.svg" class="p-2 position-absolute qrImg" />
+            </div>
+            <a href="#" class="w-100 text-decoration-none copiarBtn my-sm-3 d-flex justify-content-around">
+              <div class="btn-green font-fugaz text-white px-4 py-1 rounded-3 pix-button-text w-auto"
+                onclick="copyToClipboard('00020101021226810014br.gov.bcb.pix2559core.mkbank.com.br/api/cob/4a2497f53e1d472dae584d939ed60d235204000053039865802BR5925IPAGUE INTERMEDIACAO E AG6013FLORIANOPOLIS62070503***6304B6BB')">
+                <img class="w-auto" src="././Assets/Image/pix-icon.svg" />
+                COPIAR CÓDIGO PIX
+              </div>
+            </a>
+            <!-- alert text -->
+            <div class="alert alert-success alert-dismissible w-auto position-absolute copied">
+              <button type="button" class="btn-close w-auto" data-bs-dismiss="alert"></button>
+              Copiado!
+            </div>
+            <div class="qrtitle text-start text-uppercase mb-4">
+              <p>1 - Abra o aplicativo do seu banco e acesse a área Pix!</p>
+              <p>2 - Selecione a opção pagar com código Pix Copia e Cola</p>
+              <p>3 - Cole o código no espaço indicado no aplicativo</p>
+              <p>4 - Efetue o pagamento, volte no site e atualize a página.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="position-relative  p-0">
+      <a href="/home" class="position-absolute column homeImg">
+        <img src="./Assets/Image/inicio.svg" class="w-100">
+      </a>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+
+  let time = 600; // 10 minutes in seconds
+
+  let countdown = setInterval(function () {
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    time--;
+    document.getElementById("currentTime").innerText = timeString;
+    if (time < 0) {
+      clearInterval(countdown);
+      document.getElementById("currentTime").innerText = 'Time is over';
+    }
+  }, 1000);
+
+  const copyToClipboard = (text) => {
+    const el = document.createElement('textarea');
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+
+    document.querySelector('.copied').style.display = 'flex';
+
+    setTimeout(function () {
+      document.querySelector('.copied').style.display = 'none';
+    }, 1000); // Hides the element after 3 seconds (3000 milliseconds)
+  }
+
+</script>
